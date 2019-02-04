@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    io.iamkyu: DEBUG
+    org.springframework.data: TRACE
+    reactor:core: TRACE
+    reactor.util: TRACE
