@@ -1,0 +1,20 @@
+GET localhost:8080
+
+###
+
+GET http://localhost:8080/images/test1.JPG/raw
+
+###
+
+GET localhost:8080/api/images
+
+###
+
+POST localhost:8080/api/images
+Content-Type: application/json
+
+{"id":10, "name": "foo"}
+
+###
+
+

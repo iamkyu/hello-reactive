@@ -3,7 +3,8 @@ server:
 
 logging:
   level:
-    io.iamkyu: DEBUG
+    io:
+      netty: DEBUG
+      iamkyu: DEBUG
     org.springframework.data: TRACE
-    reactor:core: TRACE
-    reactor.util: TRACE
+    reactor: TRACE
