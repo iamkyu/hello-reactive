@@ -33,7 +33,7 @@ dependencies {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
     testImplementation 'org.assertj:assertj-core'
-    testImplementation 'io.projectreactor:reactor-test'
+    implementation 'io.projectreactor:reactor-test'
 }
 
 test {
